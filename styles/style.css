@@ -118,6 +118,8 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
 
 .search-form__label:has(.search-form__textfield) {
   text-decoration: none;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 .search-form__label:focus {
