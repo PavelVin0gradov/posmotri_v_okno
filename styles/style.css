@@ -102,7 +102,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
 .search-form__checkbox-list {
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 10px;
 }
 
 .search-form__label {
@@ -208,7 +208,7 @@ button:active {
 }
 
 .search-form__submit-button {
-  width: 205px;
+  width: 100%;
   align-self: flex-end;
 }
 
@@ -218,6 +218,7 @@ button:active {
   width: 399px;
   height: 534px;
   gap: 26px;
+  align-items: flex-start;
 }
 
 .title {
@@ -225,7 +226,7 @@ button:active {
   font-style: normal;
   font-weight: 700;
   font-size: 75px;
-  line-height: 94%;
+  line-height: 95%;
   text-transform: uppercase;
   color: white;
 }
